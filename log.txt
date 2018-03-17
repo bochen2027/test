@@ -1,0 +1,720 @@
+Using 7 thread(s).
+RNG seed: 18169612168999584146
+Detecting residual layers...v1...128 channels...10 blocks.
+Initializing OpenCL.
+Detected 1 OpenCL platforms.
+Platform version: OpenCL 1.2 CUDA 9.1.84
+Platform profile: FULL_PROFILE
+Platform name:    NVIDIA CUDA
+Platform vendor:  NVIDIA Corporation
+Device ID:     0
+Device name:   Tesla V100-SXM2-16GB
+Device type:   GPU
+Device vendor: NVIDIA Corporation
+Device driver: 390.85
+Device speed:  1530 MHz
+Device cores:  80 CU
+Device score:  1112
+Device ID:     1
+Device name:   Tesla V100-SXM2-16GB
+Device type:   GPU
+Device vendor: NVIDIA Corporation
+Device driver: 390.85
+Device speed:  1530 MHz
+Device cores:  80 CU
+Device score:  1112
+Device ID:     2
+Device name:   Tesla V100-SXM2-16GB
+Device type:   GPU
+Device vendor: NVIDIA Corporation
+Device driver: 390.85
+Device speed:  1530 MHz
+Device cores:  80 CU
+Device score:  1112
+Device ID:     3
+Device name:   Tesla V100-SXM2-16GB
+Device type:   GPU
+Device vendor: NVIDIA Corporation
+Device driver: 390.85
+Device speed:  1530 MHz
+Device cores:  80 CU
+Device score:  1112
+Selected platform: NVIDIA CUDA
+Selected device: Tesla V100-SXM2-16GB
+with OpenCL 1.2 capability.
+Loaded existing SGEMM tuning.
+Wavefront/Warp size: 32
+Max workgroup size: 1024
+Max workgroup dimensions: 1024 1024 64 
+Selected platform: NVIDIA CUDA
+Selected device: Tesla V100-SXM2-16GB
+with OpenCL 1.2 capability.
+Loaded existing SGEMM tuning.
+Wavefront/Warp size: 32
+Max workgroup size: 1024
+Max workgroup dimensions: 1024 1024 64 
+Selected platform: NVIDIA CUDA
+Selected device: Tesla V100-SXM2-16GB
+with OpenCL 1.2 capability.
+Loaded existing SGEMM tuning.
+Wavefront/Warp size: 32
+Max workgroup size: 1024
+Max workgroup dimensions: 1024 1024 64 
+Selected platform: NVIDIA CUDA
+Selected device: Tesla V100-SXM2-16GB
+with OpenCL 1.2 capability.
+Loaded existing SGEMM tuning.
+Wavefront/Warp size: 32
+Max workgroup size: 1024
+Max workgroup dimensions: 1024 1024 64 
+BLAS Core: Haswell
+>>boardsize 19
+= 
+
+>>clear_board
+= 
+
+>>komi 7.5
+= 
+
+>>showboard
+= 
+
+
+Passes: 0            Black (X) Prisoners: 0
+Black (X) to move    White (O) Prisoners: 0
+
+   a b c d e f g h j k l m n o p q r s t 
+19 . . . . . . . . . . . . . . . . . . . 19
+18 . . . . . . . . . . . . . . . . . . . 18
+17 . . . . . . . . . . . . . . . . . . . 17
+16 . . . + . . . . . + . . . . . + . . . 16
+15 . . . . . . . . . . . . . . . . . . . 15
+14 . . . . . . . . . . . . . . . . . . . 14
+13 . . . . . . . . . . . . . . . . . . . 13
+12 . . . . . . . . . . . . . . . . . . . 12
+11 . . . . . . . . . . . . . . . . . . . 11
+10 . . . + . . . . . + . . . . . + . . . 10
+ 9 . . . . . . . . . . . . . . . . . . .  9
+ 8 . . . . . . . . . . . . . . . . . . .  8
+ 7 . . . . . . . . . . . . . . . . . . .  7
+ 6 . . . . . . . . . . . . . . . . . . .  6
+ 5 . . . . . . . . . . . . . . . . . . .  5
+ 4 . . . + . . . . . + . . . . . + . . .  4
+ 3 . . . . . . . . . . . . . . . . . . .  3
+ 2 . . . . . . . . . . . . . . . . . . .  2
+ 1 . . . . . . . . . . . . . . . . . . .  1
+   a b c d e f g h j k l m n o p q r s t 
+
+Hash: 9A930BE1616C538E Ko-Hash: A14C933E7669946D
+
+Black time: 01:00:00
+White time: 01:00:00
+
+>>time_settings 2040 60 1
+= 
+
+>>time_left black 2039 0
+= 
+
+
+ Q17 ->    6588 (V: 48.36%) (N:  9.37%) PV: Q17 D4 C3 C4 D3 E3 E2 F2 F3 E4 G2 D2 F1 C2 Q3 D16 C17 D17 C16 C15 B15 B14 C14 D15 B13 B16 A14 B17 Q6
+ C16 ->    6213 (V: 48.38%) (N:  8.54%) PV: C16 Q4 C4 Q16 R3 Q3 R4 R5 S5 S6 R6 Q5 S7 S4 T6 S3 R17 Q17 R16 R15 S15 S14 R14 Q15 S13 S16 T14 S17
+ R16 ->    5881 (V: 48.36%) (N:  8.29%) PV: R16 D4 C3 C4 D3 E3 E2 F2 F3 E4 G2 D2 F1 C2 Q3 D16 C17 D17 C16 C15 B15 B14 C14 D15 B13 B16 A14 B17
+ D17 ->    5854 (V: 48.36%) (N:  8.22%) PV: D17 Q4 Q17 D4 R3 R4 Q3 P3 P2 O2 O3 P4 N2 Q2 O1 R2 C3 C4 D3 E3 E2 F2 F3 E4 G2
+  C4 ->    5367 (V: 48.35%) (N:  7.86%) PV: C4 Q16 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 D17 Q4 R3 Q3 R4 R5 S5 S6 R6 Q5 S7
+  Q3 ->    4896 (V: 48.34%) (N:  7.27%) PV: Q3 D16 C17 D17 C16 C15 B15 B14 C14 D15 B13 B16 A14 B17 C4 Q17 R15 O16 Q6 E3 D6 J3 D14
+  D3 ->    4681 (V: 48.32%) (N:  7.63%) PV: D3 Q16 Q3 D16 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 C17 C16 D17 E17 E18 F18
+  R4 ->    4075 (V: 48.34%) (N:  6.06%) PV: R4 D16 C17 C16 D17 E17 E18 F18 F17 E16 G18 D18 F19 C18 Q17 C4 E3 D6 O4 R15 O16
+  D4 ->    3506 (V: 48.22%) (N:  7.53%) PV: D4 Q16 R17 Q17 R16 R15 S15 S14 R14 Q15 S13 S16 T14 S17 R4 D16 C17 C16 D17 E17 E18 F18 F17 E16 G18 D18
+ D16 ->    3473 (V: 48.17%) (N:  8.31%) PV: D16 Q4 R3 R4 Q3 P3 P2 O2 O3 P4 N2 Q2 O1 R2 D3 Q16 R17 Q17 R16 R15 S15 S14 R14 Q15 S13
+ Q16 ->    3283 (V: 48.20%) (N:  7.29%) PV: Q16 D4 C3 C4 D3 E3 E2 F2 F3 E4 G2 D2 F1 C2 Q3 D16 C17 D17 C16 C15 B15 B14 C14 D15 B13
+  Q4 ->    2517 (V: 48.19%) (N:  5.71%) PV: Q4 D16 C17 C16 D17 E17 E18 F18 F17 E16 G18 D18 F19 C18 Q17 D4 C3 D3 C4 C5 B5
+
+56335 visits, 19883245 nodes
+
+>>time_left white 2040 0
+= 
+
+
+ Q17 ->    7726 (V: 48.35%) (N:  9.37%) PV: Q17 D4 C3 C4 D3 E3 E2 F2 F3 E4 G2 D2 F1 C2 Q3 D16 C17 D17 C16 C15 B15 B14 C14 D15 B13 B16 A14 B17 Q6 R15
+ C16 ->    7639 (V: 48.37%) (N:  8.54%) PV: C16 Q4 C4 Q16 R3 Q3 R4 R5 S5 S6 R6 Q5 S7 S4 T6 S3 R17 Q17 R16 R15 S15 S14 R14 Q15 S13 S16 T14 S17 F16 E3
+ D17 ->    7139 (V: 48.36%) (N:  8.22%) PV: D17 Q4 Q17 D4 R3 R4 Q3 P3 P2 O2 O3 P4 N2 Q2 O1 R2 C3 C4 D3 E3 E2 F2 F3 E4 G2 D2 F1 C2
+ R16 ->    7067 (V: 48.36%) (N:  8.29%) PV: R16 D4 C3 C4 D3 E3 E2 F2 F3 E4 G2 D2 F1 C2 Q3 D17 Q5 P17 Q14 D14 M17 R17
+  C4 ->    6719 (V: 48.36%) (N:  7.86%) PV: C4 Q16 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 D17 Q4 R3 Q3 R4 R5 S5 S6 R6 Q5 S7 S4 T6
+  Q3 ->    5886 (V: 48.35%) (N:  7.27%) PV: Q3 D16 C17 D17 C16 C15 B15 B14 C14 D15 B13 B16 A14 B17 C4 Q17 R15 O16 Q6 E3 D6 H3 K3 E13
+  D3 ->    5647 (V: 48.32%) (N:  7.63%) PV: D3 Q16 R17 Q17 R16 R15 S15 S14 R14 Q15 S13 S16 T14 S17 R4 D16 C17 C16 D17 E17 E18 F18 F17 E16 G18 D18 F19 C18
+  R4 ->    4947 (V: 48.35%) (N:  6.06%) PV: R4 D16 C17 C16 D17 E17 E18 F18 F17 E16 G18 D18 F19 C18 Q17 C4 E3 D6 O4 R15 O16
+ D16 ->    3952 (V: 48.16%) (N:  8.31%) PV: D16 Q4 R3 R4 Q3 P3 P2 O2 O3 P4 N2 Q2 O1 R2 D3 Q16 R17 Q17 R16 R15 S15 S14 R14 Q15 S13 S16 T14
+  D4 ->    3906 (V: 48.20%) (N:  7.53%) PV: D4 Q16 R17 Q17 R16 R15 S15 S14 R14 Q15 S13 S16 T14 S17 R4 D16 C17 C16 D17 E17 E18 F18 F17 E16 G18 D18
+ Q16 ->    3764 (V: 48.20%) (N:  7.29%) PV: Q16 D4 C3 C4 D3 E3 E2 F2 F3 E4 G2 D2 F1 C2 Q3 D16 C17 D17 C16 C15 B15 B14 C14 D15 B13
+  Q4 ->    2909 (V: 48.19%) (N:  5.71%) PV: Q4 D16 D3 Q16 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 C17 C16 D17 E17 E18 F18 F17
+
+67302 visits, 23724732 nodes
+
+>>loadsgf go.sgf 274
+= 
+
+>>showboard
+= 
+
+
+Passes: 0            Black (X) Prisoners: 15
+White (O) to move    White (O) Prisoners: 6
+
+   a b c d e f g h j k l m n o p q r s t 
+19 . . . X X X X O O . . . . O O X . X . 19
+18 . . . X O X O X O . . O O . O X X O O 18
+17 . . O X O O O . . . O X X O X X . X . 17
+16 . . X X O . O O O O X . X O O O X X X 16
+15 . . . X X O O X X O X X . X . O O O O 15
+14 X X . X . O X X . X X . . X X X O X X 14
+13 O X X . X O O X . X . X . X O O O X . 13
+12 O . X . X O O X X O . X X O O .(X)X . 12
+11 O X X X O O X X . . X O O O X . X . . 11
+10 O O O O O O O X . X X O . O X X X X . 10
+ 9 O . O O X X X . X X O O O X X O O O X  9
+ 8 O O X O X O . X O O O . X X O O O X .  8
+ 7 O X X X . X . . X X O O X O O O X X X  7
+ 6 O X X . . X . X X O X X O . . O O X .  6
+ 5 X X X X . X X X O O . O . . . O X . .  5
+ 4 O O X O X X O X . O . . . . . O X . .  4
+ 3 . O O O O O O . X O X O . . O . O X .  3
+ 2 . . . . . O O X X X O . . . . O O X .  2
+ 1 . . . . . O X X X O O . . . . O X X .  1
+   a b c d e f g h j k l m n o p q r s t 
+
+Hash: CBC30A1264FAF685 Ko-Hash: 36AFA07050735431
+
+Black time: 01:00:00
+White time: 01:00:00
+
+>>genmove b
+Thinking at most 50.0 seconds...
+NN eval=0.996269
+Playouts: 85307, Win: 99.80%, PV: Q12 P15 H3 B12 J4 E14 M8 L5 L12 L4 K11 H17 G8 pass B17 pass
+Stopping early.
+
+ Q12 ->   48632 (V: 99.88%) (N: 29.59%) PV: Q12 P15 H3 B12 J4 E14 M8 L5 L12 L4 K11 H17 G8 pass B17 pass
+  J4 ->   19643 (V: 99.78%) (N: 17.59%) PV: J4 Q12 Q11 B12 H3 P15 M8 L5 E14 L4 G8 O18 L12 H17 K11 pass
+ B12 ->   16617 (V: 99.75%) (N: 16.90%) PV: B12 Q12 Q11 P15 E14 J4 H3 M8 G8 L5 L12 L4 K11 H17
+  H3 ->   16288 (V: 99.80%) (N: 13.51%) PV: H3 Q12 Q11 P15 J4 E14 B12 M8 L12 L5 K11 L4 G8
+ E14 ->   11048 (V: 99.79%) (N:  9.53%) PV: E14 Q12 Q11 B12 P15 J4 H3 L5 M8 L4 L12 O18 K11 H17
+ P15 ->    4125 (V: 99.77%) (N:  3.83%) PV: P15 Q12 Q11 E14 B12 J4 H3 M8 L12 L5 K11 L4 G8
+  M8 ->    2509 (V: 99.86%) (N:  1.51%) PV: M8 Q12 Q11 P15 H3 J4 E14 B12 L12 L5 K11 L4 G8 O18
+ K17 ->     395 (V: 99.84%) (N:  0.28%) PV: K17 L18 Q12 P15 H3 J4 B12 E14
+ L18 ->     299 (V: 99.80%) (N:  0.25%) PV: L18 K17 Q12 P15 H3 J4 E14 B12
+ Q11 ->     258 (V: 99.82%) (N:  0.20%) PV: Q11 Q12 H3 P15 J4 E14 B12
+ R19 ->     148 (V: 99.78%) (N:  0.14%) PV: R19 Q12 Q11 E14 B12 P15 H3
+  S5 ->     143 (V: 99.70%) (N:  0.17%) PV: S5 Q12 Q11 P15 H3 J4 M8
+  M2 ->     107 (V: 98.87%) (N:  0.41%) PV: M2 L4 M1 L3 Q12 P15 H3 E14
+  S4 ->     104 (V: 99.73%) (N:  0.11%) PV: S4 Q12 Q11 P15 H3 J4 M8
+  O6 ->     102 (V: 99.14%) (N:  0.32%) PV: O6 L5 Q12 P15 M8 J4 H3
+ R17 ->      94 (V: 99.64%) (N:  0.13%) PV: R17 Q12 Q11 P15 J4 H3
+  L4 ->      81 (V: 99.41%) (N:  0.17%) PV: L4 L5 M2 M4 L3 L4 M1 L3 Q12 J4 H3 M8 P15
+ C18 ->      72 (V: 99.67%) (N:  0.09%) PV: C18 Q12 Q11 P15 H3 J4
+ M16 ->      68 (V: 99.65%) (N:  0.09%) PV: M16 Q12 Q11 P15 E14 B12 J4
+ B15 ->      63 (V: 99.63%) (N:  0.09%) PV: B15 Q12 B12 E14 J4 H3 Q11
+  M1 ->      62 (V: 99.53%) (N:  0.11%) PV: M1 M2 Q12 J4 H3 B12 E14
+ A16 ->      57 (V: 99.58%) (N:  0.09%) PV: A16 Q12 Q11 P15 E14 B12
+ A18 ->      44 (V: 99.45%) (N:  0.09%) PV: A18 Q12 Q11 P15 H3 J4
+  N3 ->      40 (V: 99.37%) (N:  0.10%) PV: N3 L4 O6 N5 Q12 H3 J4 B12 E14
+ A17 ->      29 (V: 99.57%) (N:  0.09%) PV: A17 Q12 Q11 B12 E14 P15 H3
+ T19 ->       3 (V: 86.38%) (N:  0.19%) PV: T19 R19
+121032 visits, 11747756 nodes, 121031 playouts, 32018 n/s
+
+= Q12
+
+
+ P15 ->   27015 (V:  0.09%) (N: 29.47%) PV: P15 H3 B12 J4 E14 M8 L5 L12 L4 K11 H17 G8 pass B17 pass
+  J4 ->   17937 (V:  0.16%) (N: 14.73%) PV: J4 H3 B12 E14 P15 M8 L5 G8 L4 L12 H17 K11 pass C18 pass B17
+ E14 ->   11859 (V:  0.12%) (N: 11.68%) PV: E14 B12 J4 H3 M8 P15 O18 L12 L5 K11 L4 G8 H17 B17
+ B12 ->   11209 (V:  0.13%) (N: 10.33%) PV: B12 E14 P15 H3 J4 M8 L5 G8 L4 L12 H17 K11 pass B17 pass
+  H3 ->   10352 (V:  0.18%) (N:  7.65%) PV: H3 J4 B12 E14 P15 M8 L5 G8 L4 L12 pass K11 H17 B17 pass
+ T10 ->    8707 (V:  0.38%) (N:  0.17%) PV: T10 T11 P15 E14 B12 J4 H3 M8 L5 L12 L4 K11 H17 G8 O18 B17
+  L5 ->    6920 (V:  0.11%) (N:  6.98%) PV: L5 J4 P15 H3 M8 E14 B12 L12 L4 K11 H17 G8 pass
+ O18 ->    6542 (V:  0.12%) (N:  6.30%) PV: O18 P15 J4 H3 B12 E14 M8 G8 L5 L12 L4 K11 H17 B17 pass C18
+  M8 ->    4886 (V:  0.15%) (N:  4.29%) PV: M8 P15 J4 H3 E14 B12 O18 L12 L5 K11 L4 G8 H17 B17
+  S5 ->    2410 (V:  0.35%) (N:  0.31%) PV: S5 S4 P15 H3 E14 J4 B12 M8 L5 G8 O18 L12
+  S4 ->    1905 (V:  0.36%) (N:  0.18%) PV: S4 S5 B12 E14 P15 H3 J4 M8 L5 G8 L4 L12 pass
+  L4 ->     804 (V:  0.06%) (N:  0.96%) PV: L4 H3 J4 M8 L5 B12 E14 P15 O18
+pass ->     280 (V:  0.04%) (N:  0.36%) PV: pass H3 J4 P15 B12 E14 L5 M8 O18
+ L18 ->     175 (V:  0.04%) (N:  0.22%) PV: L18 P15 B12 E14 J4 H3 L5 M8
+ K17 ->     107 (V:  0.06%) (N:  0.13%) PV: K17 P15 B12 E14 J4 H3 M8
+  O5 ->     104 (V:  0.04%) (N:  0.13%) PV: O5 H3 J4 P15 B12 E14
+ H17 ->      93 (V:  0.05%) (N:  0.12%) PV: H17 E14 B12 H3 J4 M8 L5
+ K18 ->      92 (V:  0.05%) (N:  0.12%) PV: K18 H3 J4 E14 B12
+ L19 ->      83 (V:  0.05%) (N:  0.10%) PV: L19 P15 B12 E14 J4 H3 L5 M8
+  N5 ->      80 (V:  0.05%) (N:  0.10%) PV: N5 P15 J4 H3 B12 M8 L5
+  N4 ->      80 (V:  0.04%) (N:  0.10%) PV: N4 P15 E14 B12 J4 H3
+ B17 ->      76 (V:  0.04%) (N:  0.09%) PV: B17 B12 J4 H3 E14 P15 M8
+  M1 ->      75 (V:  0.04%) (N:  0.09%) PV: M1 P15 J4 H3 B12 E14
+
+111792 visits, 10772588 nodes
+
+>>loadsgf go.sgf 276
+= 
+
+>>showboard
+= 
+
+
+Passes: 0            Black (X) Prisoners: 15
+White (O) to move    White (O) Prisoners: 6
+
+   a b c d e f g h j k l m n o p q r s t 
+19 . . . X X X X O O . . . . O O X . X . 19
+18 . . . X O X O X O . . O O . O X X O O 18
+17 . . O X O O O . . . O X X O X X . X . 17
+16 . . X X O . O O O O X . X O O O X X X 16
+15 . . . X X O O X X O X X . X . O O O O 15
+14 X X . X . O X X . X X . . X X X O X X 14
+13 O X X . X O O X . X . X . X O O O X . 13
+12 O . X . X O O X X O . X X O O O X X . 12
+11 O X X X O O X X . . X O O O X(X)X . . 11
+10 O O O O O O O X . X X O . O X X X X . 10
+ 9 O . O O X X X . X X O O O X X O O O X  9
+ 8 O O X O X O . X O O O . X X O O O X .  8
+ 7 O X X X . X . . X X O O X O O O X X X  7
+ 6 O X X . . X . X X O X X O . . O O X .  6
+ 5 X X X X . X X X O O . O . . . O X . .  5
+ 4 O O X O X X O X . O . . . . . O X . .  4
+ 3 . O O O O O O . X O X O . . O . O X .  3
+ 2 . . . . . O O X X X O . . . . O O X .  2
+ 1 . . . . . O X X X O O . . . . O X X .  1
+   a b c d e f g h j k l m n o p q r s t 
+
+Hash: E4F9DA9105E8E1BE Ko-Hash: 199570F33161430A
+
+Black time: 01:00:00
+White time: 01:00:00
+
+>>genmove b
+Thinking at most 50.0 seconds...
+NN eval=0.999558
+Playouts: 105844, Win: 99.73%, PV: H3 P15 J4 E14 B12 M8 L12 L5 K11 L4 G8 H17 B17 pass C18 O18
+Stopping early.
+
+  H3 ->   33843 (V: 99.76%) (N: 21.90%) PV: H3 P15 J4 E14 B12 M8 L12 L5 K11 L4 G8 H17 B17 pass C18 O18
+ E14 ->   22311 (V: 99.75%) (N: 14.60%) PV: E14 B12 P15 J4 H3 L5 M8 L4 L12 O18 K11 H17 G8 pass B17
+  M8 ->   21264 (V: 99.76%) (N: 14.06%) PV: M8 P15 H3 J4 E14 B12 L12 L5 K11 L4 G8 O18 C18 H17
+ P15 ->   20503 (V: 99.73%) (N: 15.51%) PV: P15 E14 B12 J4 H3 M8 L12 L5 K11 L4 G8 O18 B17 H17
+  J4 ->   19780 (V: 99.76%) (N: 12.32%) PV: J4 B12 H3 P15 M8 L5 E14 L4 G8 O18 L12 H17 K11 pass B17
+ B12 ->   17517 (V: 99.75%) (N: 12.62%) PV: B12 P15 E14 J4 H3 M8 G8 L5 L12 L4 K11 H17 B17 pass C18
+  O6 ->     824 (V: 99.53%) (N:  1.15%) PV: O6 N5 J4 H3 M8 B12 E14 P15 G8
+ L18 ->     385 (V: 99.66%) (N:  0.36%) PV: L18 K17 J4 P15 H3 B12 E14 M8 G8 L5
+ K17 ->     283 (V: 99.63%) (N:  0.30%) PV: K17 L18 H3 J4 P15 B12 E14 M8
+  M2 ->     270 (V: 99.22%) (N:  0.66%) PV: M2 L4 M1 L3 J4 H3 B12 E14 M8
+  S5 ->     180 (V: 99.66%) (N:  0.17%) PV: S5 P15 H3 J4 M8 L5
+ R19 ->     159 (V: 99.35%) (N:  0.22%) PV: R19 E14 B12 J4 H3 M8 P15
+  S4 ->     143 (V: 99.66%) (N:  0.14%) PV: S4 P15 E14 B12 M8 L5
+  L4 ->     105 (V: 99.28%) (N:  0.12%) PV: L4 L5 J4 P15 H3 M8 E14 B12
+ B16 ->     104 (V: 99.62%) (N:  0.12%) PV: B16 B12 E14 P15 H3 J4 M8 L5
+  L5 ->      91 (V: 99.63%) (N:  0.09%) PV: L5 L4 H3 B12 E14 M8 J4 P15
+ A16 ->      89 (V: 99.61%) (N:  0.10%) PV: A16 P15 E14 J4 H3
+ C18 ->      88 (V: 99.63%) (N:  0.09%) PV: C18 P15 J4 H3 E14 B12
+ L12 ->      84 (V: 99.62%) (N:  0.09%) PV: L12 P15 M8 B12 E14 J4
+ A15 ->      62 (V: 99.52%) (N:  0.09%) PV: A15 P15 B12 E14 J4 H3 M8
+ C15 ->      61 (V: 99.45%) (N:  0.10%) PV: C15 J4 H3 B12 E14 P15 M8 L5 G8 L4
+ A17 ->      55 (V: 99.48%) (N:  0.08%) PV: A17 B12 E14 J4 H3
+ B17 ->      51 (V: 99.40%) (N:  0.09%) PV: B17 J4 H3 B12 E14 P15 M8 L5
+ A18 ->      46 (V: 99.32%) (N:  0.10%) PV: A18 P15 H3 J4 E14 B12
+ N19 ->      46 (V: 99.04%) (N:  0.14%) PV: N19 O18 H3 J4 E14 B12
+  D1 ->      30 (V: 99.10%) (N:  0.08%) PV: D1 D2 H3 J4 P15
+ B15 ->      28 (V: 96.79%) (N:  0.11%) PV: B15 P15 B12 J4 H3
+pass ->      27 (V: 97.55%) (N:  0.10%) PV: pass P15 E14 B12 H3
+  C2 ->      21 (V: 98.88%) (N:  0.08%) PV: C2 B2 D2 D1 C1 E2 E1
+  N5 ->      16 (V: 97.72%) (N:  0.12%) PV: N5 L5 O6 M6 M2 L4 M1 L3 N3 N2 O2
+ C14 ->      10 (V: 90.86%) (N:  0.08%) PV: C14 E14 B12 P15 J4
+ R17 ->      10 (V: 89.84%) (N:  0.11%) PV: R17 J4 H3 B12
+ T17 ->       1 (V:  0.07%) (N:  0.18%) PV: T17 
+138488 visits, 13265545 nodes, 138487 playouts, 38468 n/s
+
+= H3
+
+
+ P15 ->   11566 (V:  0.23%) (N: 23.78%) PV: P15 J4 E14 B12 M8 L12 L5 K11 L4 G8 H17 B17 pass C18 O18
+  J4 ->   10295 (V:  0.26%) (N: 19.36%) PV: J4 M8 L5 E14 B12 P15 L4 L12 O18 K11 H17 G8 pass B17
+ E14 ->    9198 (V:  0.29%) (N: 15.63%) PV: E14 B12 J4 P15 M8 L12 L5 K11 L4 G8 O18 B17 H17
+ B12 ->    7484 (V:  0.23%) (N: 15.20%) PV: B12 E14 J4 P15 L5 M8 L4 L12 O18 K11 H17 G8 pass B17
+  S5 ->    5287 (V:  0.60%) (N:  0.27%) PV: S5 S4 E14 B12 P15 J4 M8 T5 L5 L12 L4 K11 H17
+  M8 ->    4586 (V:  0.31%) (N:  7.34%) PV: M8 J4 P15 E14 B12 L12 L5 K11 L4 G8 H17 B17 pass C18
+  L5 ->    2145 (V:  0.10%) (N:  5.92%) PV: L5 J4 M8 P15 B12 E14 L4 L12 H17 K11 pass
+ O18 ->    2054 (V:  0.12%) (N:  5.44%) PV: O18 P15 E14 B12 J4 M8 L5 L12 L4 K11 H17 G8 pass B17
+  L4 ->     333 (V:  0.11%) (N:  0.90%) PV: L4 J4 P15 M8 L5 B12 E14 L12 H17
+pass ->     135 (V:  0.09%) (N:  0.38%) PV: pass J4 B12 E14 P15 M8 L5 L12 L4
+ T10 ->     129 (V:  0.22%) (N:  0.27%) PV: T10 T11 J4 M8 L5 P15 B12 E14
+ L18 ->      81 (V:  0.09%) (N:  0.23%) PV: L18 J4 B12 E14 M8 P15 L5
+
+53294 visits, 5085188 nodes
+
+>>loadsgf go.sgf 270
+= 
+
+>>showboard
+= 
+
+
+Passes: 0            Black (X) Prisoners: 15
+White (O) to move    White (O) Prisoners: 6
+
+   a b c d e f g h j k l m n o p q r s t 
+19 . . . X X X X O O . . . . O O X . X . 19
+18 . . . X O X O X O . . O O . O X X O O 18
+17 . . O X O O O . . . O X X O X X . X . 17
+16 . . X X O . O O O O X . X O O O X X X 16
+15 . . . X X O O X X O X X . X . O O O O 15
+14 X X . X . O X X . X X . . X X X O X X 14
+13 O X X . X O O X . X . X . X O O O X . 13
+12 O . X . X O O X X O . X X O O . . X . 12
+11 O X X X O O X X . . X O O O X . X . . 11
+10 . O O O O O O X . X X O . O X X X X . 10
+ 9 O . O O X X X . X X O O O X X O O O X  9
+ 8 . O X O X O . X O O O . X X O O O X .  8
+ 7 O X X X . X . . X X O O X O O O X X X  7
+ 6 O(X)X . . X . X X O X X O . . O O X .  6
+ 5 X X X X . X X X O O . O . . . O X . .  5
+ 4 O O X O X X O X . O . . . . . O X . .  4
+ 3 . O O O O O O . X O X O . . O . O X .  3
+ 2 . . . . . O O X X X O . . . . O O X .  2
+ 1 . . . . . O X . X O O . . . . O X X .  1
+   a b c d e f g h j k l m n o p q r s t 
+
+Hash: A47827DB7F14F1DA Ko-Hash: 59148DB94B9D536E
+
+Black time: 01:00:00
+White time: 01:00:00
+
+>>genmove b
+Thinking at most 50.0 seconds...
+NN eval=0.998607
+Playouts: 53973, Win: 99.78%, PV: H1 A8 B12 A10 H3 R12 J4 M8 Q11 Q12 E14 P15 L12 L5 K11
+Playouts: 91998, Win: 99.79%, PV: H1 A8 B12 A10 H3 R12 J4 M8 Q11 Q12 E14 P15 L12 L5 K11 L4
+Playouts: 124375, Win: 99.79%, PV: H1 A8 B12 A10 H3 R12 J4 M8 Q11 Q12 E14 P15 L12 L5 K11 L4 G8
+Stopping early.
+
+  H1 ->   36106 (V: 99.79%) (N: 27.16%) PV: H1 A8 B12 A10 H3 R12 J4 M8 Q11 Q12 E14 P15 L12 L5 K11 L4 G8
+ R12 ->   25982 (V: 99.81%) (N: 18.11%) PV: R12 A8 Q12 H1 B12 A10 G1 H3 J4 H1 M2 L4 G1 S5 S4 H1 M1 L3 G1 T6 T5 H1
+  A8 ->   24590 (V: 99.87%) (N: 12.12%) PV: A8 A7 A6 A8 B12 A10 H1 J4 H3 R12 Q11 Q12 E14 M8 P15 L5 G8 L4 L12
+ B12 ->   21618 (V: 99.83%) (N: 13.50%) PV: B12 A10 A8 A7 A6 A8 H1 J4 H3 R12 Q11 Q12 E14 M8 P15 L5 L12 L4 K11
+  H3 ->    7463 (V: 99.80%) (N:  5.00%) PV: H3 A8 H1 J4 R12 Q12 Q11 P15 B12 A10 E14 M8 G8 L5
+  J4 ->    5679 (V: 99.80%) (N:  3.96%) PV: J4 A8 H1 R12 B12 A10 H3 M8 Q11 Q12 E14 P15 L12 L5 K11
+ Q12 ->    5471 (V: 99.80%) (N:  3.66%) PV: Q12 A8 R12 H1 B12 A10 G1 H3 J4 H1 M2 L4 G1 S5 S4 H1 M1 L3 G1
+ E14 ->    5221 (V: 99.80%) (N:  3.50%) PV: E14 A8 H1 J4 H3 A10 B12 R12 Q11 Q12 P15 M8 L12 L5
+  O6 ->    1640 (V: 99.66%) (N:  1.89%) PV: O6 N5 A8 A7 A6 A8 B12 A10 H1 R12 H3 J4 E14
+ P15 ->    1362 (V: 99.69%) (N:  1.41%) PV: P15 A8 H1 R12 Q11 Q12 H3 J4 B12 A10
+  M8 ->    1197 (V: 99.78%) (N:  0.89%) PV: M8 A8 H1 J4 H3 R12 Q11 Q12 B12 A10 E14 P15 L12
+ L18 ->     957 (V: 99.84%) (N:  0.53%) PV: L18 K17 A8 A7 A6 A8 B12 A10 H1 J4 H3 R12 Q11 Q12
+ K17 ->     429 (V: 99.85%) (N:  0.23%) PV: K17 L18 A8 A7 A6 A8 B12 A10 H1 H3 J4 R12
+ Q11 ->     189 (V: 99.71%) (N:  0.19%) PV: Q11 A8 H1 J4 H3 R12 B12 A10 E14 Q12
+pass ->     131 (V: 99.61%) (N:  0.17%) PV: pass A8 B12 A10 H1 J4 H3 R12 Q11 Q12
+  M2 ->     121 (V: 99.43%) (N:  0.23%) PV: M2 L4 A8 A7 A6 A8 B12 A10 H1 H3 J4 R12
+ N19 ->     112 (V: 99.72%) (N:  0.11%) PV: N19 M19 A8 A7 A6 A8 B12 A10 H1 R12 Q11
+ R19 ->      97 (V: 99.34%) (N:  0.22%) PV: R19 A8 H1 R12 Q11 Q12 B12 A10
+  C2 ->      92 (V: 99.57%) (N:  0.14%) PV: C2 A8 B2 D2 A2 C1 B1 D1 H3 A3 H1
+ B16 ->      91 (V: 99.63%) (N:  0.11%) PV: B16 A8 H1 R12 Q11 Q12 B12
+ D13 ->      87 (V: 99.58%) (N:  0.12%) PV: D13 A8 H1 R12 B12 A10 E14
+ D12 ->      83 (V: 99.63%) (N:  0.10%) PV: D12 A8 H1 R12 B12 A10 H3 J4 E14
+ A15 ->      83 (V: 99.62%) (N:  0.11%) PV: A15 A8 H1 R12 B12 A10 H3
+ C15 ->      83 (V: 99.60%) (N:  0.11%) PV: C15 A8 B12 A10 H1 J4 H3 R12 E14
+  G8 ->      78 (V: 99.65%) (N:  0.09%) PV: G8 A8 H1 J4 H3 R12 Q11 Q12
+  B2 ->      78 (V: 99.58%) (N:  0.10%) PV: B2 A8 C2 D2 A2 C1 B1 D1 H3 A3 H1
+ C14 ->      74 (V: 99.62%) (N:  0.10%) PV: C14 A8 B12 A10 H1 H3 J4 R12 Q11
+  H7 ->      68 (V: 99.64%) (N:  0.08%) PV: H7 A8 H1 R12 B12 A10 H3 J4
+ B15 ->      65 (V: 99.61%) (N:  0.09%) PV: B15 A8 B12 A10 H1 J4 H3 R12 Q11 Q12
+ S11 ->      60 (V: 99.55%) (N:  0.09%) PV: S11 A8 H1 J4 H3 Q12 B12 A10
+ B19 ->      57 (V: 99.57%) (N:  0.08%) PV: B19 A8 H1 J4 H3 R12 Q11 Q12 B12
+  D2 ->      52 (V: 99.17%) (N:  0.15%) PV: D2 A8 B2 C2 C1 A2 B1 E2 D1
+ A18 ->      49 (V: 99.50%) (N:  0.08%) PV: A18 A8 B12 A10 H1 J4 H3 R12 Q11
+ A16 ->      48 (V: 99.46%) (N:  0.09%) PV: A16 A8 H1 R12 Q11 Q12
+  L4 ->      43 (V: 99.25%) (N:  0.11%) PV: L4 L5 A8 A7 A6 A8 B12 A10 H1
+ R17 ->      42 (V: 99.40%) (N:  0.09%) PV: R17 A8 H1 R12 Q11 Q12 H3 J4
+  A2 ->      34 (V: 99.14%) (N:  0.08%) PV: A2 A8 B2 C2 H1 B1 B12
+  M4 ->      32 (V: 98.90%) (N:  0.11%) PV: M4 L4 O6 N5 A8 A7
+  A1 ->      31 (V: 99.11%) (N:  0.10%) PV: A1 A8 H1 J4 H3 R12
+  E1 ->      30 (V: 99.10%) (N:  0.09%) PV: E1 A8 C1 B2 B1 D2
+  N5 ->      26 (V: 98.06%) (N:  0.12%) PV: N5 L5 O6 M6 A8 A7 A6 A8
+  E2 ->      25 (V: 98.90%) (N:  0.09%) PV: E2 A8 H1 J4 H3 R12 B12
+  P2 ->      24 (V: 98.64%) (N:  0.10%) PV: P2 A8 B12 A10 H1 J4 H3
+  A3 ->      22 (V: 98.82%) (N:  0.09%) PV: A3 A8 B12 A10 H1 R12 H3
+  B1 ->      21 (V: 98.70%) (N:  0.09%) PV: B1 A8 D1 A2 B2 C2 C1
+  D1 ->      20 (V: 98.43%) (N:  0.11%) PV: D1 A8 B1 A2 B2 C2 C1
+  C1 ->      18 (V: 98.34%) (N:  0.11%) PV: C1 A8 D2 C2 B1
+  O3 ->      18 (V: 97.44%) (N:  0.14%) PV: O3 A8 O6 N5 P2 Q3 O5
+  N3 ->       3 (V: 91.25%) (N:  0.10%) PV: N3 A8 M2
+ T19 ->       2 (V: 84.01%) (N:  0.11%) PV: T19 R19
+ T17 ->       1 (V:  0.26%) (N:  0.13%) PV: T17 
+139906 visits, 14062044 nodes, 139905 playouts, 15527 n/s
+
+= H1
+
+
+  A8 ->   47852 (V:  0.22%) (N: 93.10%) PV: A8 B12 A10 H3 R12 J4 M8 Q11 Q12 E14 P15 L12 L5 K11 L4 G8 H17
+  J4 ->     986 (V:  0.26%) (N:  1.71%) PV: J4 H3 A8 R12 Q12 Q11 P15 B12 A10 E14 M8 G8 L4
+  H3 ->     489 (V:  0.29%) (N:  0.78%) PV: H3 J4 A8 B12 A10 R12 Q12 Q11 P15 E14 M8 L12 L5
+ R12 ->     334 (V:  0.10%) (N:  0.87%) PV: R12 A8 A7 A6 A8 B12 A10 J4 H3 E14 P15 Q11
+ Q12 ->     246 (V:  0.11%) (N:  0.64%) PV: Q12 A8 A7 A6 A8 B12 A10 R12 J4 H3 M8
+ P15 ->     243 (V:  0.26%) (N:  0.42%) PV: P15 A8 A7 A6 A8 B12 A10 R12 Q12 Q11 J4
+ A10 ->     236 (V:  0.07%) (N:  0.65%) PV: A10 A8 A7 A6 A8 H3 R12 Q11 B12 J4
+ O18 ->      81 (V:  0.07%) (N:  0.22%) PV: O18 A8 A7 A6 A8 R12 Q12 B12 A10
+  M8 ->      79 (V:  0.10%) (N:  0.21%) PV: M8 A8 A7 A6 A8 B12 A10 R12 Q12 Q11 P15 H3
+
+50547 visits, 5021520 nodes
+
+>>loadsgf go.sgf 272
+= 
+
+>>showboard
+= 
+
+
+Passes: 0            Black (X) Prisoners: 15
+White (O) to move    White (O) Prisoners: 6
+
+   a b c d e f g h j k l m n o p q r s t 
+19 . . . X X X X O O . . . . O O X . X . 19
+18 . . . X O X O X O . . O O . O X X O O 18
+17 . . O X O O O . . . O X X O X X . X . 17
+16 . . X X O . O O O O X . X O O O X X X 16
+15 . . . X X O O X X O X X . X . O O O O 15
+14 X X . X . O X X . X X . . X X X O X X 14
+13 O X X . X O O X . X . X . X O O O X . 13
+12 O . X . X O O X X O . X X O O . . X . 12
+11 O X X X O O X X . . X O O O X . X . . 11
+10 . O O O O O O X . X X O . O X X X X . 10
+ 9 O . O O X X X . X X O O O X X O O O X  9
+ 8 O O X O X O . X O O O . X X O O O X .  8
+ 7 O X X X . X . . X X O O X O O O X X X  7
+ 6 O X X . . X . X X O X X O . . O O X .  6
+ 5 X X X X . X X X O O . O . . . O X . .  5
+ 4 O O X O X X O X . O . . . . . O X . .  4
+ 3 . O O O O O O . X O X O . . O . O X .  3
+ 2 . . . . . O O X X X O . . . . O O X .  2
+ 1 . . . . . O X(X)X O O . . . . O X X .  1
+   a b c d e f g h j k l m n o p q r s t 
+
+Hash: 95509DC5D77CAB9B Ko-Hash: 683C37A7E3F5092F
+
+Black time: 01:00:00
+White time: 01:00:00
+
+>>genmove b
+Thinking at most 50.0 seconds...
+NN eval=0.998738
+Playouts: 109453, Win: 99.73%, PV: B12 A10 H3 R12 J4 M8 Q11 Q12 E14 P15 L12 L5 K11 L4 G8 H17
+Stopping early.
+
+ B12 ->   38826 (V: 99.74%) (N: 29.55%) PV: B12 A10 H3 R12 J4 M8 Q11 Q12 E14 P15 L12 L5 K11 L4 G8 H17 B17
+ R12 ->   28292 (V: 99.78%) (N: 16.62%) PV: R12 Q12 B12 A10 H3 J4 Q11 E14 P15 L5 M8 O18 G8 L4 L12 H17
+  H3 ->   23928 (V: 99.77%) (N: 14.39%) PV: H3 J4 R12 Q12 Q11 P15 B12 A10 E14 M8 G8 L4 L12 L5 K11
+  J4 ->   20406 (V: 99.77%) (N: 12.40%) PV: J4 R12 B12 A10 H3 M8 Q11 Q12 E14 P15 L12 L5 K11 L4 G8 H17
+ E14 ->   12562 (V: 99.77%) (N:  7.77%) PV: E14 J4 H3 A10 B12 R12 Q11 Q12 P15 M8 G8 L4 L12 L5
+ P15 ->    5508 (V: 99.70%) (N:  4.68%) PV: P15 R12 Q11 Q12 H3 J4 B12 A10 E14 M8 G8 L4
+ Q12 ->    4104 (V: 99.71%) (N:  3.36%) PV: Q12 R12 Q11 J4 H3 E14 B12 A10 P15 M8 L12 L5 K11 L4 G8 O18
+  M8 ->    2109 (V: 99.75%) (N:  1.41%) PV: M8 J4 H3 R12 Q11 Q12 B12 A10 E14 P15 L12 L5 K11 L4
+  O6 ->     908 (V: 99.42%) (N:  1.61%) PV: O6 N5 B12 A10 H3 R12 Q11 J4 M8 Q12
+ K17 ->     469 (V: 99.79%) (N:  0.26%) PV: K17 L18 B12 A10 R12 Q12 H3 J4 E14 Q11 M8
+ L18 ->     425 (V: 99.75%) (N:  0.29%) PV: L18 K17 B12 A10 H3 J4 E14 R12 P15 Q12
+  M2 ->     322 (V: 99.05%) (N:  0.97%) PV: M2 L4 M1 L3 B12 A10 O6 N5 E14 H3
+pass ->     147 (V: 99.72%) (N:  0.12%) PV: pass R12 B12 A10 Q11 Q12 H3 J4
+ T11 ->     134 (V: 99.72%) (N:  0.10%) PV: T11 J4 H3 Q12 Q11 A10 B12
+  L4 ->     126 (V: 99.32%) (N:  0.25%) PV: L4 L5 M2 M4 L3 L4 M1 L3 B12 A10 J4 H3 E14
+ N14 ->     123 (V: 99.71%) (N:  0.10%) PV: N14 R12 B12 A10 E14 P15 Q11
+ R17 ->     122 (V: 99.52%) (N:  0.18%) PV: R17 R12 Q11 Q12 B12 A10 E14
+ S11 ->     121 (V: 99.69%) (N:  0.10%) PV: S11 J4 H3 Q12 B12 A10 Q11 R12
+ B16 ->     105 (V: 99.66%) (N:  0.10%) PV: B16 R12 Q11 Q12 B12 A10 E14
+ D12 ->     104 (V: 99.68%) (N:  0.10%) PV: D12 R12 B12 A10 H3 J4 E14 Q12
+ A16 ->     100 (V: 99.64%) (N:  0.10%) PV: A16 J4 H3 R12 B12 A10 E14 M8
+  H7 ->      97 (V: 99.65%) (N:  0.10%) PV: H7 R12 B12 A10 H3 J4 Q11 Q12
+ T12 ->      90 (V: 99.67%) (N:  0.09%) PV: T12 R12 B12 A10 H3 J4 Q11
+  E7 ->      87 (V: 99.68%) (N:  0.08%) PV: E7 R12 Q11 J4 H3 Q12
+ Q11 ->      65 (V: 99.26%) (N:  0.15%) PV: Q11 J4 H3 R12 B12 A10 E14 Q12
+ A17 ->      60 (V: 99.53%) (N:  0.09%) PV: A17 R12 B12 A10 E14 J4 H3 M8
+  G8 ->      49 (V: 99.33%) (N:  0.10%) PV: G8 J4 H3 R12 B12 A10
+  N2 ->      40 (V: 99.17%) (N:  0.10%) PV: N2 M2 R12 Q12 B12 J4
+  M4 ->      26 (V: 98.57%) (N:  0.11%) PV: M4 L4 O6 N5 B12 A10 J4 H3
+  N3 ->      21 (V: 98.41%) (N:  0.09%) PV: N3 L4 O6 N5 B12 A10 R12
+  P2 ->      19 (V: 98.42%) (N:  0.10%) PV: P2 O2 B12 A10 O6 N5
+ M14 ->      17 (V: 95.60%) (N:  0.09%) PV: M14 R12 Q11 Q12 P15
+ R19 ->      14 (V: 97.58%) (N:  0.10%) PV: R19 R12 B12 A10 Q11
+  N5 ->       9 (V: 96.30%) (N:  0.11%) PV: N5 L5 O6 M6 M2 L4 M1
+ N15 ->       6 (V: 88.77%) (N:  0.10%) PV: N15 J4 H3
+ T19 ->       2 (V: 85.45%) (N:  0.09%) PV: T19 R19
+139544 visits, 13753787 nodes, 139543 playouts, 38441 n/s
+
+= B12
+
+
+
+1 visits, 106 nodes
+
+>>loadsgf go.sgf 282
+= 
+
+>>showboard
+= 
+
+
+Passes: 0            Black (X) Prisoners: 15
+White (O) to move    White (O) Prisoners: 6
+
+   a b c d e f g h j k l m n o p q r s t 
+19 . . . X X X X O O . . . . O O X . X . 19
+18 . . . X O X O X O . . O O . O X X O O 18
+17 . . O X O O O . . . O X X O X X . X . 17
+16 . . X X O . O O O O X . X O O O X X X 16
+15 . . . X X O O X X O X X . X O O O O O 15
+14 X X . X O O X X . X X . . X X X O X X 14
+13 O X X . X O O X . X . X . X O O O X . 13
+12 O O X . X O O X X O . X X O O O X X . 12
+11 O X X X O O X X . . X O O O X X X . . 11
+10 O O O O O O O X . X X O . O X X X X . 10
+ 9 O . O O X X X . X X O O O X X O O O X  9
+ 8 O O X O X O . X O O O(X)X X O O O X .  8
+ 7 O X X X . X . . X X O O X O O O X X X  7
+ 6 O X X . . X . X X O X X O . . O O X .  6
+ 5 X X X X . X X X O O . O . . . O X . .  5
+ 4 O O X O X X O X X O . . . . . O X . .  4
+ 3 . O O O O O O X X O X O . . O . O X .  3
+ 2 . . . . . O O X X X O . . . . O O X .  2
+ 1 . . . . . O X X X O O . . . . O X X .  1
+   a b c d e f g h j k l m n o p q r s t 
+
+Hash: BA84D59F9C3DF1AE Ko-Hash: 47E87FFDA8B4531A
+
+Black time: 01:00:00
+White time: 01:00:00
+
+>>genmove b
+Thinking at most 50.0 seconds...
+NN eval=0.994915
+Playouts: 65943, Win: 99.50%, PV: L12 L5 K11 L4 G8 H17 B17 pass C18 pass pass
+Playouts: 126199, Win: 99.52%, PV: L12 L5 K11 L4 G8 H17 B17 pass C18 pass pass
+Stopping early.
+
+ L12 ->   35866 (V: 99.58%) (N: 20.82%) PV: L12 L5 K11 L4 G8 H17 B17 pass C18 pass pass
+  G8 ->   26412 (V: 99.58%) (N: 16.11%) PV: G8 L5 L12 L4 K11 H17 B17 pass C18 pass pass
+  S5 ->   12659 (V: 99.49%) (N: 10.81%) PV: S5 L5 G8 L4 L12 pass K11 H17 C18 pass B17 pass pass
+ C18 ->   10458 (V: 99.65%) (N:  3.38%) PV: C18 L5 B17 H17 L12 L4 K11 pass G8 pass pass
+ K11 ->    9581 (V: 99.59%) (N:  5.18%) PV: K11 L5 L12 L4 G8 H17 B17 pass C18 pass pass
+  S4 ->    8974 (V: 99.44%) (N:  9.05%) PV: S4 L5 G8 L4 L12 H17 K11 pass B17 pass C18 pass pass
+pass ->    8046 (V: 99.57%) (N:  4.81%) PV: pass L5 L12 L4 K11 H17 G8 pass B17 pass C18
+ B17 ->    7412 (V: 99.62%) (N:  2.81%) PV: B17 L5 C18 H17 L12 L4 K11 pass G8 pass pass
+ T10 ->    3798 (V: 99.62%) (N:  1.65%) PV: T10 L5 L12 L4 K11 H17 G8 pass B17 pass C18 pass
+ D13 ->    2855 (V: 99.63%) (N:  1.12%) PV: D13 L5 G8 L4 L12 H17 K11 pass C18 pass B17
+ R19 ->    2041 (V: 99.63%) (N:  0.61%) PV: R19 L5 L12 L4 K11 H17 G8 pass B17 pass C18 pass
+ D12 ->    1614 (V: 99.58%) (N:  0.89%) PV: D12 L5 G8 L4 L12 H17 K11 O18 B17 pass C18
+  H9 ->     802 (V: 99.55%) (N:  0.50%) PV: H9 L5 G8 L4 L12 H17 K11 O18 B17 pass C18
+  T5 ->     639 (V: 99.55%) (N:  0.43%) PV: T5 L5 L12 L4 K11 H17 G8 O18 B17 pass
+  T8 ->     627 (V: 99.51%) (N:  0.49%) PV: T8 L5 G8 L4 L12 O18 K11 H17 B17
+  O6 ->     491 (V: 98.71%) (N:  1.69%) PV: O6 L5 G8 L4 L12 O5 K11 P6 B17 H17
+ K17 ->     445 (V: 98.97%) (N:  1.15%) PV: K17 L18 G8 L5 L12 L4 K11 H17 B17 pass
+  T4 ->     434 (V: 99.51%) (N:  0.34%) PV: T4 L5 G8 L4 L12 H17 K11 pass B17 pass
+ B18 ->     394 (V: 99.31%) (N:  0.58%) PV: B18 L5 B17 L4 C18 H17 G8 pass L12
+  E7 ->     375 (V: 99.59%) (N:  0.20%) PV: E7 L5 G8 L4 L12 H17 K11 pass B17 pass
+ N15 ->     339 (V: 99.52%) (N:  0.26%) PV: N15 L5 L12 L4 K11 pass G8 H17 C18 pass
+  L4 ->     336 (V: 98.25%) (N:  1.64%) PV: L4 L5 M2 M4 L3 L4 M1 L3 L12 N2 K11 N1 G8 O18 B17
+ B15 ->     311 (V: 99.47%) (N:  0.28%) PV: B15 L5 G8 L4 L12 H17 K11 pass B17
+  L5 ->     306 (V: 99.25%) (N:  0.29%) PV: L5 L4 G8 pass L12 H17 K11 O18 B17 pass
+ N14 ->     302 (V: 99.54%) (N:  0.21%) PV: N14 L5 L12 L4 K11 O18 G8 H17 B17 pass
+ R17 ->     265 (V: 99.03%) (N:  0.62%) PV: R17 L5 L12 L4 K11 pass G8 H17 B17 pass
+ T11 ->     260 (V: 99.51%) (N:  0.21%) PV: T11 L5 G8 L4 L12 H17 K11 pass B17 pass
+ B16 ->     245 (V: 99.44%) (N:  0.25%) PV: B16 L5 L12 L4 K11 H17 G8 pass C18
+  H7 ->     233 (V: 99.58%) (N:  0.13%) PV: H7 L5 G8 L4 L12 O18 K11 H17 B17 pass
+ M16 ->     233 (V: 99.49%) (N:  0.20%) PV: M16 L5 L12 L4 K11 H17 G8 O18 B17 pass
+  E6 ->     208 (V: 99.56%) (N:  0.13%) PV: E6 L5 G8 L4 L12 H17 K11 O18 B17 pass
+ C19 ->     198 (V: 99.37%) (N:  0.25%) PV: C19 L5 L12 L4 K11 O18 G8 H17
+ C14 ->     186 (V: 99.26%) (N:  0.31%) PV: C14 L5 G8 L4 L12 H17 K11 O18
+ A15 ->     178 (V: 99.34%) (N:  0.24%) PV: A15 L5 G8 L4 L12 H17 K11 pass B17
+ B19 ->     175 (V: 99.31%) (N:  0.25%) PV: B19 L5 L12 L4 K11 H17 G8 O18
+ T12 ->     163 (V: 99.30%) (N:  0.25%) PV: T12 L5 G8 L4 L12 H17 K11 pass B17
+ L18 ->     160 (V: 97.71%) (N:  1.09%) PV: L18 K17 M19 K18 L19 K19 L12 L5 K11 L4 G8
+  G7 ->     152 (V: 99.52%) (N:  0.12%) PV: G7 L5 G8 L4 L12 H17 K11 O18 B17
+ C15 ->     147 (V: 99.25%) (N:  0.23%) PV: C15 L5 G8 L4 L12 H17 K11 pass B17
+ N13 ->     146 (V: 99.50%) (N:  0.12%) PV: N13 L5 L12 L4 K11 H17 G8 O18
+ A16 ->     129 (V: 99.22%) (N:  0.23%) PV: A16 L5 G8 L4 L12 H17 K11 pass B17
+  E5 ->     126 (V: 99.43%) (N:  0.13%) PV: E5 L5 L12 L4 K11 O18 G8 H17
+ A18 ->     119 (V: 99.10%) (N:  0.26%) PV: A18 L5 L12 L4 K11 H17 G8 pass
+  T3 ->     116 (V: 99.27%) (N:  0.19%) PV: T3 L5 G8 L4 L12 O18 K11 H17
+  T6 ->     115 (V: 99.39%) (N:  0.14%) PV: T6 L5 G8 L4 L12 pass K11 H17
+ A17 ->     105 (V: 99.03%) (N:  0.25%) PV: A17 L5 L12 L4 K11 H17 G8 pass
+  T1 ->     103 (V: 99.27%) (N:  0.17%) PV: T1 L5 L12 L4 K11 H17 G8 pass
+ T13 ->      91 (V: 99.12%) (N:  0.19%) PV: T13 L5 G8 L4 L12 H17 K11 pass B17
+  T2 ->      80 (V: 99.10%) (N:  0.17%) PV: T2 L5 G8 L4 L12 H17 K11 O18 B17
+ J14 ->      77 (V: 99.38%) (N:  0.09%) PV: J14 L5 G8 L4 L12 H17 K11
+ M14 ->      65 (V: 99.02%) (N:  0.16%) PV: M14 L5 L12 L4 K11 H17 G8
+  M2 ->      65 (V: 94.44%) (N:  1.15%) PV: M2 L4 O6 N5 M1 L3 N3 N2 O2 N1
+  D6 ->      61 (V: 98.99%) (N:  0.15%) PV: D6 L5 G8 L4 L12 O18 K11 H17
+ A19 ->      56 (V: 98.37%) (N:  0.26%) PV: A19 L5 G8 L4 L12 H17 K11 pass
+ J11 ->      47 (V: 99.09%) (N:  0.10%) PV: J11 L5 G8 L4 L12 H17 K11 pass
+  G6 ->      47 (V: 98.98%) (N:  0.12%) PV: G6 L5 L12 L4 K11 H17 G8 O18
+ J10 ->      45 (V: 98.79%) (N:  0.14%) PV: J10 L5 G8 L4 L12 H17 K11
+ S11 ->      43 (V: 98.73%) (N:  0.14%) PV: S11 L5 G8 L4 L12 pass K11 H17 B17
+ J13 ->      39 (V: 98.77%) (N:  0.13%) PV: J13 L5 G8 L4 L12 pass K11
+ H17 ->      38 (V: 98.78%) (N:  0.12%) PV: H17 J17 G8 L5 L12 L4 K11 pass
+  A3 ->      34 (V: 98.28%) (N:  0.17%) PV: A3 A2 L12 L5 K11 L4
+  P6 ->      34 (V: 98.12%) (N:  0.14%) PV: P6 L5 O6 O5 M6 L6 N5 N4 M2
+ M19 ->      28 (V: 97.73%) (N:  0.19%) PV: M19 L18 G8 L5 S4 L4 L12
+  M4 ->      26 (V: 96.60%) (N:  0.28%) PV: M4 L5 M2 L4 M1 L3 N3 N4
+  N3 ->      23 (V: 97.01%) (N:  0.20%) PV: N3 L4 O6 L5 N5 M6
+ L13 ->      22 (V: 98.39%) (N:  0.10%) PV: L13 L5 G8 L4 L12 H17 K11
+  B1 ->      21 (V: 97.56%) (N:  0.13%) PV: B1 B2 D1 D2 C1 E1 A2
+ N19 ->      21 (V: 95.91%) (N:  0.27%) PV: N19 O18 L18 K17 L19 M19 O6 L5 N5
+  A1 ->      20 (V: 97.60%) (N:  0.12%) PV: A1 A2 L12 L5 K11 L4
+  E2 ->      18 (V: 96.99%) (N:  0.12%) PV: E2 D2 E1 D1 C18 L5 B17 L4
+  C2 ->      18 (V: 96.57%) (N:  0.19%) PV: C2 B2 D2 D1 C1 E2 E1 B1 S5
+  M1 ->      18 (V: 95.88%) (N:  0.24%) PV: M1 L4 M2 L3 O2 N2 O6
+  O2 ->      17 (V: 96.93%) (N:  0.16%) PV: O2 L5 M2 L4 M1 L3 P2 Q3
+  N2 ->      17 (V: 96.57%) (N:  0.18%) PV: N2 L5 M2 L4 M1 L3 P2 O2 O3
+  O1 ->      15 (V: 96.89%) (N:  0.14%) PV: O1 L4 O6 N5 P2
+  C1 ->      15 (V: 96.22%) (N:  0.11%) PV: C1 C2 B1 D1 E1 E2 L4
+  E1 ->      14 (V: 96.84%) (N:  0.13%) PV: E1 D1 D2 E2 C2 B2 C1
+  P5 ->      14 (V: 96.78%) (N:  0.13%) PV: P5 O6 G8 L5 L12 L4
+  O3 ->      14 (V: 96.71%) (N:  0.15%) PV: O3 L5 M2 L4 M1 L3 O2
+  N5 ->      14 (V: 94.42%) (N:  0.26%) PV: N5 L5 O6 M6 M2 L4 M1 L3 N3
+  P2 ->      13 (V: 95.59%) (N:  0.19%) PV: P2 O2 O6 N5 M2
+  B2 ->      12 (V: 94.85%) (N:  0.21%) PV: B2 C2 A2 B1 D1 C1 D2 E1
+ K19 ->      11 (V: 96.70%) (N:  0.12%) PV: K19 K18 K17 J17 L18 L19
+  N1 ->      11 (V: 95.83%) (N:  0.14%) PV: N1 L4 O6 L5 N5
+  A2 ->      11 (V: 93.25%) (N:  0.19%) PV: A2 B2 D2 D1 C1 E1
+ L19 ->      10 (V: 96.00%) (N:  0.12%) PV: L19 L18 O6 L5 N5 M6 M2
+  N4 ->       9 (V: 94.99%) (N:  0.16%) PV: N4 L5 M2 L4 M1 L3 N3
+ K18 ->       9 (V: 94.19%) (N:  0.11%) PV: K18 K17 K19 H17 N19
+ J17 ->       8 (V: 95.51%) (N:  0.12%) PV: J17 H17 L18 K17 M19
+  O4 ->       8 (V: 92.67%) (N:  0.14%) PV: O4 L5 M2 L4 M1
+  D2 ->       8 (V: 92.15%) (N:  0.15%) PV: D2 C2 C1 B1 A2
+  P1 ->       7 (V: 94.11%) (N:  0.15%) PV: P1 P2 O6 L5 N5
+  O5 ->       5 (V: 94.76%) (N:  0.10%) PV: O5 O6 M2 L4 M1
+  P4 ->       5 (V: 90.57%) (N:  0.17%) PV: P4 L5 O3 O2 M2
+  D1 ->       4 (V: 90.40%) (N:  0.13%) PV: D1 C2 C1
+ T19 ->       4 (V: 65.11%) (N:  0.18%) PV: T19 R19 O6
+ T17 ->       1 (V:  0.26%) (N:  0.16%) PV: T17 
+140573 visits, 12382469 nodes, 140572 playouts, 24070 n/s
+
+= L12
+
+
+  L5 ->   23873 (V:  0.41%) (N: 48.32%) PV: L5 K11 L4 G8 H17 B17 pass C18 pass pass
+  L4 ->    8065 (V:  0.49%) (N: 12.91%) PV: L4 K11 L5 G8 H17 B17 pass C18 pass pass
+ H17 ->    5650 (V:  0.49%) (N:  8.83%) PV: H17 K11 L5 G8 L4 B17 pass C18 pass pass
+  S5 ->    3710 (V:  0.75%) (N:  0.38%) PV: S5 S4 T5 T4 L5 K11 L4 T6 H17 G8 O18 B17 pass
+ O18 ->    3024 (V:  0.28%) (N:  8.37%) PV: O18 K11 L5 G8 L4 B17 H17 C18 pass pass
+ T10 ->    2011 (V:  0.98%) (N:  0.14%) PV: T10 T11 S4 S5 T4 T5 T3 T2 L5 G8 L4 K11
+ L18 ->    1756 (V:  0.24%) (N:  5.22%) PV: L18 K11 L5 G8 L4 B17 H17 C18 pass pass
+  S4 ->    1310 (V:  0.97%) (N:  0.14%) PV: S4 S5 L5 K11 L4 G8 H17 T4 O18 B17
+ K17 ->    1163 (V:  0.22%) (N:  3.59%) PV: K17 K11 L5 G8 L4 B17 H17 C18 pass pass
+pass ->     884 (V:  0.25%) (N:  2.57%) PV: pass K11 L5 G8 L4 B17 H17 C18 pass pass
+ K18 ->     353 (V:  0.26%) (N:  1.01%) PV: K18 K11 L5 G8 L4 B17 H17 C18 pass pass
+ N15 ->     211 (V:  0.62%) (N:  0.18%) PV: N15 N14 L5 K11 L4 G8 H17 B17 O18 C18
+  O6 ->     189 (V:  0.33%) (N:  0.46%) PV: O6 K11 L5 G8 L4 B17 H17 C18 pass pass
+  N2 ->     145 (V:  0.27%) (N:  0.41%) PV: N2 K11 L5 G8 L4 B17 H17 C18 pass pass
+  N5 ->     131 (V:  0.32%) (N:  0.33%) PV: N5 K11 L5 G8 L4 B17 H17 C18 pass
+  O5 ->      78 (V:  0.28%) (N:  0.21%) PV: O5 K11 L5 G8 L4 B17 H17 C18
+ J17 ->      78 (V:  0.20%) (N:  0.25%) PV: J17 K11 L5 G8 L4 B17 H17 C18
+ L19 ->      69 (V:  0.23%) (N:  0.21%) PV: L19 K11 L5 G8 L4 C18 H17 B17
+  B2 ->      61 (V:  0.19%) (N:  0.20%) PV: B2 K11 L5 G8 L4 B17 H17
+ C19 ->      33 (V:  0.16%) (N:  0.14%) PV: C19 G8 C18 B17 B18
+ K19 ->      32 (V:  0.21%) (N:  0.14%) PV: K19 K11 L5 G8 L4 B17
+
+52827 visits, 4459576 nodes
+
